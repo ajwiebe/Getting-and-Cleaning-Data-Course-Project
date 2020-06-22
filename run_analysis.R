@@ -1,3 +1,4 @@
+library(dplyr)
 ##loading in the features and appropriately naming the columns
 features <- read.table("./UCI HAR Dataset/features.txt")
 names(features)[names(features)== "V1"] <- "number"
